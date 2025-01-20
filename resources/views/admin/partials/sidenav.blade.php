@@ -20,5 +20,12 @@
                 <div data-i18n="Dashboard">Dashboard</div>
             </a>
         </li>
+
+        <li class="menu-item {{ menuActive('admin.user*') }}">
+            <a href="{{ route('admin.user') }}" class="menu-link">
+                <i class="menu-icon tf-icons ti ti-user"></i>
+                <div data-i18n="Users">Users</div>
+            </a>
+        </li>
     </ul>
 </aside>
